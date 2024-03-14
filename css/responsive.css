@@ -1,0 +1,246 @@
+
+@media screen and (max-width:1330px) {
+    .header-area .header-contant .header-link ul {
+        gap: 5px;
+      }
+}
+@media screen and (max-width:1199px) {
+    .bars{
+        display: block !important;
+        border: none;
+        background: transparent;
+        font-size: 25px;
+        color: gray;
+    }
+    .header-area .header-contant .header-link ul li a.color{
+        width: 20%;
+        padding: 8px 15px;
+    }
+    .header-area .header-contant .header-link {
+        position: absolute;
+        height: 100%;
+        top: 100%;
+        left: 0;
+        background-color: #DFF1FB;
+        width: 100%;
+        transform: translateY(-500px);
+        transition: all 1s ease-in-out;
+        display: inline-table;
+        overflow-y: auto;
+    }
+    .header-area .header-contant .header-link.active{
+        transform: translateY(0);
+    }
+    .header-area .header-contant .header-link ul{
+        display: block;
+        padding:0 5em;
+    }
+    .header-area .header-contant .header-link ul li a{
+        display: block;
+        padding: .5em 0;
+        border-bottom: 1px solid #14599E;
+    }
+}
+@media screen and (max-width:991px) {
+
+    .owl-item-section .owl-contant p{
+        font-size: 22px;
+       line-height: 30px;
+    }
+    .owl-item-section .owl-contant img{
+        height: 260px;
+    }
+    .owl-item-section .owl-contant{
+        position: relative;
+    }
+    section .input-section{
+        width: 40%;
+        top: 42%;
+        left: 70px;
+    }
+    section .input-section .input-box{
+        position: relative;
+        top: -62px;
+        left: 255px;
+    }
+    .icon-info-section .container .box-outer .box-1 img{
+        width: 30px;
+    }
+    .icon-info-section .container .box-outer .box-1 p{
+        font-size: 11px;
+    }
+    .icon-info-section-2 .container .box-outer-2 form button.btn{
+        padding: 8px;
+    }
+    .programs-course-section .branch-box .box-contant{
+        width: 70%;
+    }
+    .programs-course-section .branch-box .box-contant p{
+        font-size: 14px;
+        padding: 0 20px;
+    }
+    .hundreds-happy-section .overlay .hundreds-happy-contant{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .about-section .about-heading h1{
+        font-size: 25px;
+       line-height: 30px;
+    }
+    .placement-image-section .image-contant{
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .icon-info-section .container .box-outer .box-1{
+        padding:2em .5em;
+     }
+}
+
+@media screen and (max-width:767px) {
+    .owl-item-section .owl-contant{
+        position: relative;
+    }
+    section .input-section{
+        width: 52%;
+        top: 42%;
+        left: 70px;
+    }
+    section .input-section .input-box{
+        left: 255px;
+        font-size: 16px;
+        overflow: hidden;
+    }
+    .icon-info-section-2 .container .box-outer-2 form{
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    .icon-info-section .container .box-outer .box-1 img{
+        width: 25px;
+    }
+    .icon-info-section .container .box-outer .box-1{
+        padding: 2em .2em;
+    }
+    .icon-info-section-2 .container .box-outer-2{
+        background: #E5F3FC;
+    }
+    .icon-info-section-2 .container .box-outer-2 form select,
+    .icon-info-section-2 .container .box-outer-2 form input{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .programs-course-section .heading h2{
+        font-size: 26px;
+        font-weight:bold;
+    }
+    .programs-course-section .heading span button.btn-link{
+        display: none;
+    }
+    .programs-course-section .branch-box{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .programs-course-section .branch-box .box-contant img{
+      width: 30px;        
+      height:30px;        
+    }
+    .programs-course-section .branch-box .box-contant{
+        width: 100%;
+        box-shadow: none;
+        border-bottom: 1px solid #dfe8ed;
+        border-radius: inherit;
+    }
+    .programs-course-section .branch-box .box-contant p{
+        background: transparent;
+    }
+    .upcoming-batches-section .batch-heading h2,
+    .our-learners-work-section .our-heading h2{
+        font-size: 26px;
+        text-align: left;
+    }
+    .our-learners-work-section .our-heading p{
+        text-align: left;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #212529;
+    }
+    .upcoming-batches-section .batch-heading span{
+        font-size: 18px;
+        padding: 0 1rem;
+    }
+    .hundreds-happy-section .overlay .hundreds-happy-contant,
+    .footer-section .overlay .footer-box .footer-box-contant .ul-link,
+    .footer-section .overlay .footer-box{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .hundreds-happy-section .overlay .hundreds-happy-contant button.post-link{
+        display: none;
+    }
+    .about-section .about-heading h1{
+        font-size: 18px;
+       line-height: 20px;
+    }
+    .corporate-section .image-and-form .form-contant form .half-input,
+    .corporate-section .image-and-form,
+    .download-section .container .download-contant{
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+    }
+    .blog-ducat-basic-info .blog-imge-area,
+    .placement-image-section .image-contant{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .blog-ducat-basic-info .blog-imge-area .image-contant{
+        width: 300px;
+    }
+    .online-ragistaion-section form .half-input,
+    .contact-image-section .form-contact form .half-input,
+    .blog-search-section .blog-search-contant{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .blog-search-section .blog-search-contant .search input{
+        width: 40%;
+    }
+    .our-branch-section{
+        padding: 500px 0 0;
+    }
+    .online-ragistaion-section form .half-input input{
+        margin-top: 10px;
+    }
+
+}
+
+
+@media screen and (max-width:575px) {
+    .icon-info-section .container .box-outer .box-1{
+        flex-direction: column;
+        text-align: center;
+        padding: 1em 0;
+    }
+    .upcoming-batches-section .upcoming-batches-box .box-contant{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .right-course-section .right-course-box .right-course-box-contant{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .right-course-section h2{
+        font-size: 20px;
+    }
+    .hundreds-happy-section .overlay{
+        margin-top: 25px;
+    }
+    .placement-image-section .image-contant{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .placement-image-section .image-contant .card-main{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .placement-image-section .image-contant .card-main .image{
+        width: 100%;
+    }
+    .blog-ducat-basic-info .blog-imge-area{
+        grid-template-columns: repeat(1,1fr);
+        width: 380px;
+        margin: 0 auto;
+    }
+}
